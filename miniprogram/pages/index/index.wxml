@@ -1,0 +1,34 @@
+<view class='box'>
+     <view class='txt'>{{screenNum}}</view> 
+    <view capture-bind:touchstart="compute">
+     <view>
+       <button data-val='clear' class='boxtn btn1'>AC</button>
+       <button data-val='back' class='boxtn btn1'>←</button>
+       <button data-val='#' class='boxtn btn1'>#</button>
+       <button data-val='chu' class='boxtn btn'>÷</button>
+     </view>
+       <view>
+       <button data-val='7' class='boxtn'>7</button>
+       <button data-val='8' class='boxtn'>8</button>
+       <button data-val='9' class='boxtn'>9</button>
+       <button data-val='cheng' class='boxtn btn'>×</button>
+     </view>
+       <view>
+       <button data-val='4' class='boxtn'>4</button>
+       <button data-val='5' class='boxtn'>5</button>
+       <button data-val='6' class='boxtn'>6</button>
+       <button data-val='jian' class='boxtn btn'>-</button>
+     </view>
+       <view>
+       <button data-val='1' class='boxtn'>1</button>
+       <button data-val='2' class='boxtn'>2</button>
+       <button data-val='3' class='boxtn'>3</button>
+       <button data-val='jia' class='boxtn btn'>+</button>
+     </view>
+       <view>
+       <button data-val='1' class='boxtn btn2'>0</button>
+       <button data-val='.' class='boxtn'>.</button>
+       <button data-val='=' class='boxtn btn'>=</button>
+     </view>
+    </view>
+</view>
